@@ -1,0 +1,95 @@
+nav ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#tudo {
+    position: absolute;
+    left: 31%;
+    font-size: 18px;
+}
+
+fieldset {
+    text-decoration: none;
+    border: none;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#subtitulo {
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cadastro {
+    position: absolute;
+    left: 160%;
+    bottom: 39%
+}
+
+#nivelexp {
+    position: absolute;
+    left: 7.0%;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+#tipocerve {
+    position: absolute;
+    left: 7%;
+    top: 122%;
+    width: 500px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botao {
+    position: absolute;
+    top: 83%;
+    left: 46%;
+    background-color: rgba(255, 255, 255, 0.863);
+    border-radius: 20px;
+    border: 3px solid black;
+    color: rgb(0, 0, 0);
+    width: 98px;
+    height: 38px;
+    font-size: 22px;
+    padding: 0.5;
+
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+}
+
+#botao:hover {
+    transform: translateY(-10px);
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#alltudo { 
+    height: 475px;
+    width: 550px;
+    background-color: white;
+    text-align: justify;
+    font-family: Arial,sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-size: 18;
+    border: 1px solid  black;
+    
+}

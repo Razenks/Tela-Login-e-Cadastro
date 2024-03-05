@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Favicon/1000_F_200635963_W5NzxKPs4PFlIQkvCIyrzUmd7NgkqQ1D.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/all.css">
+    <link rel="stylesheet" href="../Css/cadastro.css">
+    <title>Cadastramento</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html">E-BEER</a>
+            </li>
+            <li>
+                <a href="about.html">Sobre</a>
+            </li>
+            <li>
+                <a href="contact.html">Contato</a>
+            </li>
+            <li>
+                <a href="index.html">Login</a>
+            </li>
+        </ul>
+    </nav>
+    <hr> 
+    <div id="alltudo">
+    <div>
+        <h1 id="titulo">Cadastro</h1>
+        <h2 id="subtitulo">Coloque suas informações</h2>
+        <br>
+    </div>
+    
+    <form>
+        
+            <div id="tudo">
+                <fieldset id="teste">
+                    <div>
+                        <label>Nome</label> <br>
+                        <input type="text" name="nome" id="nome">
+                    </div>
+                    <div>
+                        <label>Sobrenome</label> <br>
+                        <input type="text" name="sobrenome" id="sobrenome">
+                    </div>
+                    <div>
+                        <label>Senha</label> <br>
+                        <input type="password" name="senha" id="senha">
+                    </div>
+                </fieldset>
+                <div id="cadastro">
+                    <div>
+                        <label id="nomemail">Email</label> <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label id="nomecpf">CPF</label> <br>
+                        <input type="number" name="cpf" id="cpf">
+                    </div>
+                </div>
+                <br>
+                <div id="nivelexp">
+                    <label>Qual seu nivel de conhecimento sobre a Cervejaria?</label>
+                    <select name="genero" id="genero">
+                        <option value="none" selected disabled >Selecione</option>
+                        <option value="Iniciante">Iniciante</option>
+                        <option value="Intermediario">Intermediario</option>
+                        <option value="SoudaCasa">Sou da Casa</option>
+                    </select>
+                </div>
+                <br>
+                <div id="tipocerve">
+                    <label>Quais tipos de cervejas gosta de tomar?</label> <br>
+                    <input type="checkbox" name="cerveja" value="ipa">IPA
+                    <input type="checkbox" name="cerveja" value="pilsen">Pilsen
+                    <input type="checkbox" name="cerveja" value="teizenbier">Weizenbier
+                    <input type="checkbox" name="cerveja" value="tripel">Tripel
+                    <input type="checkbox" name="cerveja" value="stout">Stout
+                </div>
+            </div>
+            <button id="botao" type="submit">Criar</button>
+        </div>
+    </form>
+
+    
+</body>
+
+</html>

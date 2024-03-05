@@ -1,0 +1,42 @@
+nav ul {
+    list-style-type: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: azure;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 24px;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+}
+
+p {
+    text-align: justify;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.BARBALADA{
+    text-align: center;
+}
+
+.ben{
+    text-align: center;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.726);
+    font-size: 24px;
+    text-decoration: none;
+}
